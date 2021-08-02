@@ -1,0 +1,109 @@
+.right-dash-board .top-info {
+  background-color: #fff;
+  height: 160px;
+  border-radius: 10px 0px 0px 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-dash-board .top-info span:nth-child(1) {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.right-dash-board .top-info p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #404040;
+}
+
+.right-dash-board .top-info span:nth-child(3) {
+  font-size: 14px;
+}
+
+.right-dash-board .top-info span:nth-child(4) {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.right-dash-board .connected-accounts {
+  height: calc(100vh - 270px);
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 10px 0px 0px 0px;
+  overflow: scroll;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-dash-board .connected-accounts .head {
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-dash-board .connected-accounts .head span:nth-child(2) {
+  font-weight: 300;
+  font-size: 14px;
+  color: #404040;
+  cursor: pointer;
+}
+
+.right-dash-board .connected-accounts .card {
+  background: #f8f8f9;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 3px;
+}
+
+.right-dash-board .connected-accounts .card:hover {
+    background: rgba(0, 120, 255, 0.05);
+}
+
+.right-dash-board .connected-accounts .card  .background-image {
+    background-image: url("https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWVufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    height: 40px;
+    width: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    background-position: top;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 20px;
+}
+
+.right-dash-board .connected-accounts .card  .background-image img {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    bottom: -5px;
+    right: -5px;
+}
+
+.right-dash-board .connected-accounts .card span {
+font-size: 18px;
+margin-left: 25px;
+}
+
+.right-dash-board .connected-accounts button {
+  background-color: #0078FF;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  min-height: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  align-self: center;
+  color: #fff;
+  margin-top: 10px;
+  width: 100%;
+}

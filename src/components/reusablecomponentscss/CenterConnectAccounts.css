@@ -1,0 +1,118 @@
+.loading {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.center-connect-accounts {
+  background-color: #fff;
+  height: calc(100vh - 70px - 20px);
+  margin-top: 20px;
+  padding: 20px;
+  overflow: scroll;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.center-connect-accounts .title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.center-connect-accounts .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.center-connect-accounts .header button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  background-color: #fff;
+  border: 2px solid #000;
+  margin-left: 20px;
+}
+
+.center-connect-accounts .account-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(64, 64, 64, 0.1);
+  font-weight: 500;
+  padding: 10px 0px;
+}
+
+.center-connect-accounts .account-container .image-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px 20px;
+  width: 70%;
+  border-radius: 10px;
+  cursor: default;
+}
+
+.center-connect-accounts .account-container .image-container .images {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+
+.center-connect-accounts .account-container .image-container:hover {
+  background: rgba(67, 221, 255, 0.1);
+}
+
+.center-connect-accounts .account-container .image-container img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.center-connect-accounts .account-container .image-container .account {
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  bottom: 0px;
+  left: 25px;
+}
+
+.center-connect-accounts .account-container button {
+  height: 50px;
+  width: 120px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.center-connect-accounts .account-container .active {
+  color: #00ecc2;
+}
+
+.center-connect-accounts .account-container .activate {
+  color: #0078ff;
+}
+
+.center-connect-accounts .account-container .activate:hover {
+  background: rgba(0, 120, 255, 0.1);
+}
+
+.center-connect-accounts .account-container .remove {
+  color: #ff4359;
+}
+
+.center-connect-accounts .account-container .remove:hover {
+  background: rgba(255, 67, 89, 0.1);
+}

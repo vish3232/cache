@@ -1,0 +1,7 @@
+.right-side-bar-container {
+    height: calc(100vh - 90px);
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    overflow: scroll;
+  }
+  

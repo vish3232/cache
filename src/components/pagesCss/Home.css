@@ -1,0 +1,22 @@
+body {
+    background-color: #F8F8F9;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 23.5% 50% 23.5%;
+    gap: 1.5%;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+textarea {
+    font-family: 'Poppins', sans-serif;
+}

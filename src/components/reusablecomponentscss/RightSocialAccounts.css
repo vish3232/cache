@@ -1,0 +1,66 @@
+.loading {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.social-accounts {
+  background-color: #fff;
+  height: calc(100vh - 90px);
+  padding: 15px;
+}
+
+.social-accounts .title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.social-accounts button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  background-color: #fff;
+  position: relative;
+  padding: 10px 0px;
+  text-align: left;
+}
+
+.social-accounts button:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.social-accounts button .image-container {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.social-accounts img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.social-accounts span {
+  text-transform: capitalize;
+  width: 70%;
+  margin-left: 40px;
+}
+
+.social-accounts .mini-image {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 5px;
+  left: 25px;
+}

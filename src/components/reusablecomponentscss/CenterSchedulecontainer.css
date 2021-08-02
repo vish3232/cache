@@ -1,0 +1,356 @@
+.editor-container {
+  height: calc(100vh - (110px + 140px));
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.main-container .hide {
+  display: none;
+}
+
+.overlay {
+  height: calc(100vh);
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay .select-draft {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 10;
+}
+
+.overlay .select-draft strong {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.overlay .select-draft p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.overlay .select-draft .select-button-draft {
+  margin-top: 25px;
+}
+
+.overlay .select-draft .select-button-draft .no {
+  width: 150px;
+  height: 50px;
+  background: #ff4359;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.overlay .select-draft .select-button-draft .yes {
+  width: 150px;
+  height: 50px;
+  background: #0078ff;
+  border-radius: 10px;
+  border: none;
+  margin-left: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.editor-container .add-button-container {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  padding-left: 5px;
+}
+
+.editor-container .add-button-container .add-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.editor-container .add-button-container .add-more .or {
+  height: 40px;
+  width: 1px;
+  background-color: #828282;
+  margin-right: 15px;
+}
+
+.editor-container .add-button-container .selected-accounts {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  height: 55px;
+  padding-left: 5px;
+  overflow: scroll;
+}
+
+.editor-container .add-button-container .add-button {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #000;
+  font-size: 30px;
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.editor-container .add-button-container .add-button-preview {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #1da1f2;
+  font-size: 30px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.editor-container .add-button-container .add-button-preview img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.editor-container .add-button-container .add-button-preview:hover > button {
+  display: unset;
+}
+
+.editor-container .add-button-container .add-button-preview button {
+  display: none;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 10px;
+  text-align: center;
+  top: -5px;
+  left: -5px;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.editor-container .add-button-container .add-button-preview .logo {
+  height: 20px;
+  width: 20px;
+  border: none;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 10px;
+  text-align: center;
+  bottom: -5px;
+  right: -5px;
+}
+
+/* post editor start */
+.editor-container .post-editor {
+  background-color: #fbfbfc;
+  height: calc(100vh - (110px + 160px + 50px + 50px + 50px));
+  margin-top: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.editor-container .post-editor textarea:focus {
+  outline: none;
+}
+
+.editor-container .post-editor textarea {
+  width: 100%;
+  height: calc(100vh - (110px + 160px + 50px + 50px + 70px + 10px + 40px));
+  padding: 10px 20px;
+  padding-right: 40px;
+  resize: none;
+  background-color: #fbfbfc;
+  border: none;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+}
+
+.editor-container .post-editor .post {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0px 20px;
+  overflow: scroll;
+}
+
+.editor-container .post-editor .image-container {
+  position: relative;
+  height: 50px;
+}
+
+
+.editor-container .post-editor .word-count {
+   position: absolute;
+   right: 15px;
+}
+
+.editor-container .post-editor .full-screen {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.editor-container .post-editor .image-container:hover > button {
+  display: unset;
+}
+
+.editor-container .post-editor .image-container img {
+  height: 50px;
+  width: auto;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.editor-container .post-editor .image-container video {
+  height: 50px;
+  width: auto;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.editor-container .post-editor .image-container button {
+  display: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  font-size: 10px;
+  background-color: #fff;
+  position: absolute;
+  left: -5px;
+  top: -5px;
+}
+
+.editor-container .post-editor button {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #404040;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+/* button-editor start */
+.editor-container .button-editor {
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.editor-container .button-editor button {
+  font-size: 18px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.editor-container .button-editor button:nth-child(1){
+   width: 24%;
+}
+
+.editor-container .button-editor button:nth-child(2){
+  width: 45%;
+}
+
+.editor-container .button-editor button:nth-child(3){
+  width: 24%;
+}
+
+.editor-container .button-editor button:focus {
+  border: 1px solid #000;
+}
+
+.editor-container .button-editor button span {
+  margin-right: 15px;
+}
+
+/*button container start*/
+.app-container {
+  margin-top: 20px;
+  height: 140px;
+  background-color: #fff;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.app-container .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-container .title span:nth-child(1) {
+  font-size: 18px;
+}
+
+.app-container .title span:nth-child(2) {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.app-container .button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.app-container .button-container button {
+  border: 2px solid;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.main-container .progress-bar {
+  height: 45px;
+  margin-top: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.main-container .progress-bar .progress {
+  height: 35px;
+  background-color: #0078ff;
+  border-radius: 5px;
+  margin: 0px 4px;
+  position: relative;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

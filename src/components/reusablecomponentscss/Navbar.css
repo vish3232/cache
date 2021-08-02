@@ -1,0 +1,23 @@
+nav {
+  height: 70px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 50px;
+}
+
+nav img {
+  width: 49.86px;
+  height: 24px;
+}
+
+nav div {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+nav span {
+  margin-left: 10px;
+  font-weight: 600;
+}

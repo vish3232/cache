@@ -1,0 +1,30 @@
+.center-edit-screen {
+  height: calc(100vh - (70px + 20px));
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.center-edit-screen textarea {
+  padding: 20px;
+  padding-right: 40px;
+  border: none;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  font-family: Poppins;
+  resize: none;
+  border-radius: 10px;
+}
+
+.center-edit-screen textarea:focus {
+  outline: none;
+}
+
+.center-edit-screen img {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}

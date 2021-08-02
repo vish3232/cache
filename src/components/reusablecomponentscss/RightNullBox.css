@@ -1,0 +1,4 @@
+.right-null-box {
+    height: calc(100vh - 90px);
+    background-color: #fff;
+}

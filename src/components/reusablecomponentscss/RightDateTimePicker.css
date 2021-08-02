@@ -1,0 +1,100 @@
+.date-time-picker {
+  background-color: #fff;
+  height: calc(100vh - 90px);
+  padding: 15px;
+}
+
+.date-time-picker .title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.date-time-picker button {
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 15px;
+  width: 100%;
+  border:none;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.date-time-picker .active {
+  background: rgba(0, 120, 255, 0.1);
+  color: #0078FF;
+}
+
+.date-time-picker input {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 16px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    border: 1px solid #dcdcdc
+}
+
+.date-time-picker input:focus {
+    outline: none;
+}
+
+.date-time-picker .hide {
+  display: none;
+}
+
+.overlay {
+  height: calc(100vh);
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay .select-draft {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px
+}
+
+.overlay .select-draft strong {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.overlay .select-draft p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.overlay .select-draft .select-button-draft {
+  margin-top: 25px;
+}
+
+.overlay .select-draft .select-button-draft .no {
+  width: 150px;
+  height: 50px;
+  background: #ff4359;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.overlay .select-draft .select-button-draft .yes {
+  width: 150px;
+  height: 50px;
+  background: #0078ff;
+  border-radius: 10px;
+  border: none;
+  margin-left: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+

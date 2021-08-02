@@ -1,0 +1,77 @@
+.right-hash-tag {
+    overflow-y:scroll ;
+    background-color: #fff;
+    height: calc(100vh - 90px);
+    padding: 10px 15px;
+}
+
+.right-hash-tag .saved-copy-container{
+    margin-top: 14px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.right-hash-tag .create-copy-button{
+    margin-top: 14px;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(0, 236, 194, 0.1);
+border-radius: 10px;
+}
+
+.right-hash-tag .generate-copy-and-saved-copy-tab-container{
+    margin-top: 14px;
+  
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-hash-tag .generate-copy-header{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #404040;
+}
+
+.right-hash-tag .saved-copy-header{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+
+.right-hash-tag .create-copy-button-header{
+    color: #00ECC2;
+
+}
+
+.right-hash-tag .saved-copy-container-item{
+    width: 100%;
+    padding: 2%;
+    margin-top: 2%;
+
+background: #F8F8F9;
+border-radius: 10px;
+}

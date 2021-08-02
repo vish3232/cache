@@ -1,0 +1,227 @@
+.draft-edit {
+  width: 70%;
+  height: 63vh;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.draft-edit .editor-container1 {
+  padding: 20px;
+  overflow: scroll;
+}
+
+.editor-container1 .add-button-container {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    overflow: scroll;
+    padding-left: 5px;
+  }
+  
+  .editor-container1 .add-button-container .add-button {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #000;
+    font-size: 30px;
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .editor-container1 .add-button-container .add-button-preview {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #1da1f2;
+    font-size: 30px;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .editor-container1 .add-button-container .add-button-preview img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .editor-container1 .add-button-container .add-button-preview:hover > button {
+    display: unset;
+  }
+  
+  .editor-container1 .add-button-container .add-button-preview button {
+    display: none;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 10px;
+    text-align: center;
+    top: -5px;
+    left: -5px;
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  
+  .editor-container1 .add-button-container .add-button-preview .logo {
+    height: 20px;
+    width: 20px;
+    border: none;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 10px;
+    text-align: center;
+    bottom: -5px;
+    right: -5px;
+  }
+  
+  /* post editor start */
+  .editor-container1 .post-editor {
+    background-color: #f8f8f9;
+    height: calc(100vh - (110px + 160px + 50px + 50px + 50px));
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .editor-container1 .post-editor textarea:focus {
+    outline: none;
+  }
+  
+  .editor-container1 .post-editor textarea{
+    width: 100%;
+    height: calc(100vh - (110px + 160px + 50px + 50px + 70px + 10px + 40px));
+    padding: 10px 20px;
+    resize: none;
+    background-color: #f8f8f9;
+    border: none;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+  }
+  
+  .editor-container1 .post-editor .post {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0px 20px;
+    overflow: scroll;
+  }
+  
+  .editor-container1 .post-editor .image-container {
+    position: relative;
+    height: 50px;
+  }
+  
+  .editor-container1 .post-editor .image-container:hover > button {
+    display: unset;
+  }
+  
+  .editor-container1 .post-editor .image-container img {
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
+    border-radius: 10px;
+  }
+  
+  .editor-container1 .post-editor .image-container video {
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
+    border-radius: 10px;
+  }
+  
+  .editor-container1 .post-editor .image-container button {
+    display: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 10px;
+    background-color: #fff;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+  }
+  
+  .editor-container1 .post-editor button {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #404040;
+    font-size: 24px;
+    border-radius: 10px;
+  }
+  
+  /* button-editor start */
+  .editor-container1 .button-editor {
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .editor-container1 .button-editor button {
+    padding: 0px 20px;
+    font-size: 18px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .editor-container1 .button-editor button:focus {
+    border: 1px solid #000;
+  }
+  
+  .editor-container1 .button-editor button span {
+    margin-right: 15px;
+  }
+
+  .draft-edit .right-side-bar {
+      padding: 10px;
+      background-color: #f8f8f9;
+      overflow: scroll;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+
+  .draft-edit .date-picker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .draft-edit #schedule-post{
+    height: 40px;
+    border: none;
+    background-color: #f8f8f9;
+    font-size: 16px;
+  }
+
+  .draft-edit .Language {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+  }
+
+  .draft-edit .Language button {
+    height: 50px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }

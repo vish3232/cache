@@ -1,0 +1,86 @@
+.select-to-connect-account {
+  height: calc(100vh - (70px + 20px));
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.select-to-connect-account .title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.select-to-connect-account .save-button {
+  height: 50px;
+  width: 100px;
+  background: #0078ff;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+  float:right;
+  clear: both;
+}
+
+.select-to-connect-account .account-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(64, 64, 64, 0.1);
+  font-weight: 500;
+  padding: 5px 10px;
+  align-self: flex-end;
+}
+
+.select-to-connect-account .account-container:hover {
+  background: rgba(0, 120, 255, 0.1);
+  border-radius: 10px;
+}
+
+.select-to-connect-account .account-container .image-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px 20px;
+  width: 80%;
+  border-radius: 10px;
+  cursor: default;
+}
+
+.select-to-connect-account .account-container .image-container .images {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+
+.select-to-connect-account .account-container .image-container img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.select-to-connect-account .account-container .image-container .account {
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  bottom: 0px;
+  left: 25px;
+}
+
+.select-to-connect-account .account-container button {
+  height: 50px;
+  width: 120px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
